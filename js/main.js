@@ -41,7 +41,7 @@ function frame(a) {
   requestAnimationFrame(frame)
 
   frameNum++  
-  scale = 500/(1000000-(m.pow(frameNum,2)+500))
+  scale = 500/(1000000-(frameNum+500))
 
 
   Shape.update()
