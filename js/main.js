@@ -1,7 +1,7 @@
 
     //  GLOBAL DECLARATIONSS
 var mainCanvas, C, context, btns, shape1, scale, center, isDragging, frameNum
-
+var rate = 100
 
     //    INIT FUNCTION
 function init() {
@@ -41,7 +41,7 @@ function frame(a) {
   requestAnimationFrame(frame)
 
   frameNum++  
-  scale = 500/(1000-(frameNum+500))
+  scale = 500/(rate-(frameNum+500))
 
 
   Shape.update()
