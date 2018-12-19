@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese');
+
+
+.container {
+  padding: 10px
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding: 20px;
+  border: 0px solid;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+
+  background-color: #9ac;
+}
+
+.form :focus {
+  outline-style: solid;
+  outline-color: #ccc;
+  outline-width: 6px;
+}
+
+.form button {
+  font-family: Montserrat, sans-serif, serif;
+  display: inline-block;
+
+  background-color: #004;
+  border: none;
+  color: white;
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  margin: 10px 10px 10px 10px;
+
+  width: 100px;
+}
+
+.form button:hover {
+  background-color: #337;
+}
+
+.form button:focus {
+  background-color: #337;
+}
+
+.form button:active {
+  background-color: #66a;
+}
+
+.form button:focus:active {
+  outline-width: 3px;
+}
+
+
+.form input.line {
+  border-color: #004;
+  border-style: solid;
+  border-width: 5px;
+  margin: 15px 10px 15px 10px;
+  padding: 5px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+
+  box-sizing: border-box;
+
+  background-color: rgb(189, 202, 226);
+}
+
+.form input.line:focus {
+  background-color: #fff;
+}
+
+.canvas {
+  background-color: #ccd;
+  border: 0px solid;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#main-canvas {
+  background-color: #fff;
+  margin: 30px;
+
+  border-color: #004;
+  border-width: 10px;
+  border-style: solid;
+}
