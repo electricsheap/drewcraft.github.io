@@ -1,7 +1,7 @@
 
     //  GLOBAL DECLARATIONSS
 var mainCanvas, C, context, btns, shape1, scale, center, isDragging, frameNum
-var rate = 100
+var rate = 1000
 
     //    INIT FUNCTION
 function init() {
