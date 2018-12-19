@@ -78,5 +78,5 @@ function frame(a) {
 const m = math
 Array.prototype.add = function(obj) {this[this.length]=obj;return this}
 
-setTimeOut(()=>location=location, 10000)
+setTimeout(()=>location=location, 10000)
 $(init)
