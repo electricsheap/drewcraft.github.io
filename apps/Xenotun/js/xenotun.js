@@ -81,7 +81,7 @@ class Scale {
         //does not yet include [Functional Tuning]
         return (`
 [Info]
-Editor= "tuning.js"
+Editor= "xenotun.js"
 
 [Tuning]
 ${this.tuning}
