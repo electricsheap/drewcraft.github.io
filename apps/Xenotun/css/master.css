@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(125, 155, 180);
+}
+
+.center {
+  text-align: center;
+
+}
+
+.form {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 100px 50px 20px 50px;
+  font-size: 30pt;
+  font-weight: bolder;
+  line-height: 20px;
+}
+
+.form input {
+  height: 40px;
+  width: 55%;
+  vertical-align: middle;
+  font-family: Courier, monospace;
+  font-weight: 500;
+  font-size: 25pt;
+}
+
+.form .inputs {
+  line-height: 50px
+}
+
+.form button {
+  height: 40px;
+  width: auto;
+  border-style: solid;
+  border-width: 0px;
+  vertical-align: middle;
+  font-family: Courier, monospace;
+  font-weight: 500;
+  font-size: 15pt;
+  background-color: lightcyan;
+}
+
+.form button:active {
+  background-color: darkcyan;
+}
+
+.file {
+  background-color: aliceblue;
+  margin: 0% 20%;
+  padding: 20px 0px 50px 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.file.body {
+  text-align: left;
+}
