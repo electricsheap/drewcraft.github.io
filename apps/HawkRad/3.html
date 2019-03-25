@@ -1,0 +1,86 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./master.css">
+
+
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <script language="javascript" type="text/javascript" src="3.js"></script>
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style. 
+       You might only need one of these values set. -->
+  <style> 
+    body {
+      padding: 0; 
+      margin: 0;
+    }
+
+    canvas {
+      vertical-align: center;
+    } 
+    
+  </style>
+</head>
+
+<body>
+    <div class="form">
+
+
+      <!--   Links to all slides  -->
+      <div class = "buttons">
+        <table>
+          <tr>
+            <th>
+              <a href="./index.html"><button>Home</button></a>
+            </th>
+            <th>
+              <a href="./1.html"><button>Sim 1</button></a>
+            </th>
+            <th>
+              <a href="./2.html"><button>Sim 2</button></a>
+            </th>
+            <th>
+              <button disabled>Sim 3</button>
+            </th>
+            <th>
+              <a href="./4.html"><button>Fin</button></a>
+            </th>
+          </tr>
+        </table>
+      </div>
+      <br>
+      
+      <!--   Explaination   -->
+
+      <div class = "text">
+        <h2>Simulation 3</h2>
+        <h3>Virtual Particles at Event Horizons</h3>
+        <p>
+            At last, we put the two beasts together, the black holes of general relativity and fluctuations of quantum theory. Fluctuations happen everywhere, in and out of black holes. Most of the time, these fluctuations stay on either side, but now and again, a particle in a pair will get caught in the event horizon while the other remains free. This freed particle becomes a real photon and radiates away. This is Hawking radiation.
+        </p>    
+        <p>
+            Create a virtual pair on the edge of the event horizon to watch this effect. Now increase uncertainty and watch this effect occurs automatically, as in nature.         </p>
+      </div>
+      <hr>
+      <br>
+      <!--   Frame rate -->
+
+      <div class = "framerate">
+        <table>
+          <thead>FRAME RATE</thead>
+          <tr>
+            <th><span id="fr"></span></th>
+            <th><span id="frav"></span></th>
+          </tr>
+        </table> 
+      </div>
+
+      <input type="range" class="range" name="noise-lvl" id="nlvl" max="200" min="0" value="0">
+
+    </div>
+    
+</body>
+</html>
